@@ -1,0 +1,3 @@
+echo "type your first name: "
+read parentdir
+echo "your first name is $parentdir
