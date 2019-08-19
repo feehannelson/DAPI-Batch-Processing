@@ -1,2 +1,8 @@
 #!/bin/bash
 #Author: Olivia Feehan-Nelson
+print("DAPI files must end in 1,3,5,7, or 9")
+#create CZI and DAPI folders
+mkdir CZI DAPI
+#move all .czi files to CZI folder 
+mv *.czi CZI
+mv *[13579].tif DAPI
